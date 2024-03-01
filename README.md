@@ -1,5 +1,5 @@
 
-# QR_ID_card  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtXjM6pC-IwNCHg3H8IoonZRLsYyrJ56qdhclZeHttzw&s" width="3%" height="3%"/>
+# QR_ID_card  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtXjM6pC-IwNCHg3H8IoonZRLsYyrJ56qdhclZeHttzw&s" width="2.5%" height="2.5%"/>
 
 ## STEPS 
 
@@ -16,7 +16,7 @@
         * py QR_ID_card.py
 
 
- <img src="./DEMO.png"/>
+ <img src="./DEMO.png" width="60%"/>
 
 
 
