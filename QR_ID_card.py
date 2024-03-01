@@ -18,11 +18,11 @@ def generate_qr():
         os.makedirs("ID")
 
     # Generate QR code
-    qr = qrcode.QRCode(version=1, box_size=7, border=5)
+    qr = qrcode.QRCode(version=1, box_size=7, border=5)  #⚙️🤓
     qr.add_data(data)
     qr.make(fit=True)
 
-    img = Image.new("RGB", (380, 500), "white")
+    img = Image.new("RGB", (380, 500), "white")     #⚙️🤓
     draw = ImageDraw.Draw(img)
     font = ImageFont.load_default()
 
@@ -30,11 +30,11 @@ def generate_qr():
     text_lines = data.split('\n')
     y_offset = 10  # Starting y-offset for text
     for line in text_lines:
-        draw.text((10, y_offset), line, fill="black", font=font)
+        draw.text((10, y_offset), line, fill="black", font=font)   #⚙️🤓
         y_offset += 20  # Adjust as needed
 
     # Paste the QR code onto the image
-    qr_img = qr.make_image(fill_color="black", back_color="white")
+    qr_img = qr.make_image(fill_color="black", back_color="white")   #⚙️🤓
     img.paste(qr_img, (10, y_offset + 20))
 
     img_path = os.path.join("ID", f"{name_text}_{id_text}_qr.png")
@@ -47,7 +47,7 @@ window = tk.Tk()
 window.title("ID Card Generator")
 
 # Name Entry
-name_label = ttk.Label(window, text="Name:")
+name_label = ttk.Label(window, text="Name:")                    #⚙️🤓
 name_label.grid(row=0, column=0, padx=10, pady=10, sticky=tk.W)
 name_entry = ttk.Entry(window)
 name_entry.grid(row=0, column=1, padx=10, pady=10)
