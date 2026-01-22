@@ -1,7 +1,7 @@
 
 # QR_ID_card  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtXjM6pC-IwNCHg3H8IoonZRLsYyrJ56qdhclZeHttzw&s" width="2.5%" height="2.5%"/>
 
-## STEPS 
+## STEPS for running 
 
     1. Clone the repository:
         * git clone https://github.com/shivampetwal/QR_ID_card.git
@@ -43,3 +43,4 @@
             * known as the Pillow library, it provides extensive capabilities for opening,
               manipulating, and saving various image file formats.
     
+
