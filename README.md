@@ -23,6 +23,8 @@
 
 
 
+.
+
 ## Technologies , Languages , libraries  Used: 
 
     1. Python
@@ -43,4 +45,5 @@
             * known as the Pillow library, it provides extensive capabilities for opening,
               manipulating, and saving various image file formats.
     
+
 
